@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		FCF69571299D15D800BCF0A6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF69570299D15D800BCF0A6 /* main.swift */; };
+		FCF69578299D163200BCF0A6 /* Tovar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF69577299D163200BCF0A6 /* Tovar.swift */; };
+		FCF6957A299D167800BCF0A6 /* magazine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF69579299D167800BCF0A6 /* magazine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		FCF6956D299D15D800BCF0A6 /* practis */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = practis; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCF69570299D15D800BCF0A6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FCF69577299D163200BCF0A6 /* Tovar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tovar.swift; sourceTree = "<group>"; };
+		FCF69579299D167800BCF0A6 /* magazine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = magazine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				FCF69570299D15D800BCF0A6 /* main.swift */,
+				FCF69579299D167800BCF0A6 /* magazine.swift */,
+				FCF69577299D163200BCF0A6 /* Tovar.swift */,
 			);
 			path = practis;
 			sourceTree = "<group>";
@@ -120,7 +126,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCF69578299D163200BCF0A6 /* Tovar.swift in Sources */,
 				FCF69571299D15D800BCF0A6 /* main.swift in Sources */,
+				FCF6957A299D167800BCF0A6 /* magazine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
